@@ -1,0 +1,75 @@
+—Simple data types:
+-Variables: biến là giá trị có thể thay đổi được.
+
+-String & integers: Là kiểu giá trị kiểu chuỗi và kiểu số nguyên.
+
+-Multi-line string: là kiểu chuỗi mà có thể xuống dòng được.
+	+Để khai báo 1 multi-line thì dấu """ đầu và đuôi bắt buộc phải ở khác hàng.
+	+Có thể loại bỏ dấu xuống dòng (\n) bên trong chuỗi bằng cách thêm dấu \ trước khi xuống dòng.
+	+Sử dụng multi-line giúp cho code nhìn ngăn nắp hơn. Nhược điểm là giá trị của chuỗi khi dùng multi-line sẽ có thêm dấu xuống dòng như /n.
+
+-Double & boolean: double là kiểu thể hiện các giá trị thập phân và boolean là kiểu giá trị true hay false.
+
+-String Interpolation: Nội suy chuỗi là chức năng thường được sử dụng để thực hiện code hay thêm giá trị vào bên trong chuỗi 1 cách linh động.
+
+-Constants: Hằng khác với biến là khi mà hằng đã được đặt giá trị thì hằng sẽ không bao giờ thay đổi giá trị.
+
+-Khai báo kiểu:
+	+Thường được sử dụng để cho swift biết kiểu của giá trị trả về mà Swift không suy ra được.
+	+Chức năng này cũng thường được sử dụng để tránh sử dụng các kiểu mặc định của Swift . VD: Sử dụng Float thay vì Double.
+	+Cuối cùng ta cũng có thể sử dụng để khai báo trước 1 biến/hằng rồi sau đó thêm giá trị vào sau.
+
+—Complex data types
+Array: Kiểu mảng là kiểu Collection mà dùng để chứa nhiều giá trị khác nhau dưới dạng 1 giá trị. Để truy cập các phần tử bên trong mảng ta dùng subcript (array.[index]) với index là vị trí của phần tử bên trong mảng. Nếu ta truy cập phần tử sử dụng index mà không hợp lệ thì sẽ dẫn tới crash do ta gọi tới giá trị mà nằm bên ngoài mảng.
+	+Ta có thể làm các công việc với các phần tử trong mảng như thêm vào hoặc loại bỏ phần tử, sắp xếp các phần tử trong mảng theo điều kiện nhất định.
+
+Sets: Kiểu Sets cũng giống với kiểu Array với 2 điểm khác biệt :
+	+Trình tự của các phần tử bên trong Sets được sắp xếp 1 cách ngẫu nhiên.
+	+Các phần tử bên trong Sets đều là độc nhất.
+	+Nếu như mà ta thêm vào 1 phần tử mà là 1 bản sao của phần tử khác thì phần tử mới sẽ không được thêm vào.
+
+Tuples: Kiểu Tuples là 1 kiểu Collection mà ta bắt buộc phải định sẵn số lượng các phần tử bên trong và kiểu của từng phần tử đó.
+	+Do đó nên số lượng phần tử bên trong 1 tuples và kiểu của các phần tử đó là bất biến. 	+Để truy cập 1 phần tử bên trong tuples ta có thể gọi sử dụng kiểu số hoặc tên của phần tử đó.
+
+Array vs Set vs Tuples: Các trường hợp sử dụng
+	+Ta sử dụng Tuples khi nào mà ta cần 1 kiểu Collection với kích thước không đổi, có phần tử với vị trí hay tên chính xác.
+	+Ta sử dụng Sets khi nào mà ta cần dùng 1 kiểu Collection mà chỉ chứa giá trị độc nhất, hoặc thực hiện tìm kiếm giá trị 1 cách nhanh chóng.
+	+Ta sử dụng Arrays khi nào mà ta cân dùng 1 kiểu Collection mà có thứ tự hoặc có giá trị lặp lại.
+
+Dictionary:
+	+Là 1 kiểu Collection mà hoạt động dựa theo cặp key,value giống với Tuples. Khác với kiểu Tuples thì thay vì key của Tuples phải là kiểu String thì key của Dictionary có thể là mọi kiểu. Để truy cập 1 phần tử bên trong Dictionary ta sử dụng subscript giá trị key của phần tử đó.
+	+Mỗi khi ta truy cập 1 phần tử bên trong 1 Dictionary thì nếu key mà không tồn tại thì giá trị trả về sẽ là nil cho nên mỗi khi ta truy cập 1 phần tử bên trong 1 dictionary thì sẽ dưới dạng 1 Optional để xử lý.
+	+Dictionary là kiểu Collection có lợi thế sử dụng kiểu key, value của Tuples để truy cập các phần tử và có thể thay đổi kích thược của bản thân giống như của kiểu Array.
+
+Dictionary default values: Ta có thể thêm giá trị mặc định cho xử lý trường hợp mà ta subscript 1 key mà không tồn tại bên trong 1 dictionary.
+	+Ví dụ: let name = [“Sophie”, default: “Not Found”].
+
+Creating Empty Collection: Ta có thể khai báo các kiểu Array và Dictionary trống sử dụng cú pháp:
+	+Array: let array = [Int]() hoặc let array: [Int] = []
+	+Dictionary: let dict = [String:String]() hoặc let dict: [String:String] = [:]
+	+ Còn với Sets thì ta sử dụng dấu ngoặc nhọn (<>) do Swift chỉ hỗ trợ Array và Dictionary. Cú pháp: let set = Set<Int>()
+
+Enum: Là 1 tập hợp các giá trị liên quan đến nhau mà ta có thể sử dụng để xử lý các case bên trong enum đó với flow control như If-Else, Switch-case, guard-else, … Enum hiểu 1 cách đơn giản là đặt tên cho 1 giá trị theo case của enum. Giá trị đó có thể được dùng để kiểm tra với 1 giá trị khác mà cũng là kiểu enum đó. Dùng cách này ta không cần phải lo lỗi chính tả và giúp cho người lập trình dễ dàng xử lý các trường hợp sử dụng enum đó.
+
+Enum Associated values: Associated values của enum hoạt động giống như thêm mô tả vào cho từng case. Ta có thể thêm các giá trị đi kèm để cho case thêm chính xác hơn.
+	+Cú pháp: enum Status {
+				case success (String)
+				case error (Int)
+			}
+	+Ta có thể truy cập các Associated values sử dụng flow-control.
+
+Enum Raw values:
+	+Sử dụng raw Values ta có thể đặt giá trị cho từng case của enum.
+	+Ta có thể khai báo kiểu Int cho tất cả các case của enum ở khi định nghĩa enum và swift sẽ thực hiện đặt rawValues cho từng case theo thứ tự.
+	+Ví dụ: enum Days: Int {
+			case monday
+			case tuesday
+			case wednesday
+		}
+	thì giá trị của case tuesday sẽ là 1. Còn nếu không thì có thể đặt giá trị cho 1 case ở đầu để swift thực hiện tính lên. VD:
+	+enum Days: Int {
+			case monday = 1
+			case tuesday
+			case wednesday
+		}
+	thì giá trị của tuesday sẽ là 2.
