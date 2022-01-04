@@ -87,7 +87,7 @@ var new = [String:Int]()
 new["Paul"] = 20
 let numbers = [Int]()
 
-let words = Set<String>()
+let words = Set<String>() //Set doesn't have special character to init
 
 //Enumerations
 enum Result {

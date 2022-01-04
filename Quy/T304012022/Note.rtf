@@ -5,10 +5,10 @@
 \paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\fs28 \cf0 \'97Symple data types:\
+\f0\fs28 \cf0 \'97Simple data types:\
 -Variables: bi\uc0\u7871 n l\'e0 gi\'e1 tr\u7883  c\'f3 th\u7875  thay \u273 \u7893 i \u273 \u432 \u7907 c.\
 \
--String & intergers: L\'e0 ki\uc0\u7875 u gi\'e1 tr\u7883  ki\u7875 u chu\u7895 i v\'e0 ki\u7875 u s\u7889  nguy\'ean.\
+-String & integers: L\'e0 ki\uc0\u7875 u gi\'e1 tr\u7883  ki\u7875 u chu\u7895 i v\'e0 ki\u7875 u s\u7889  nguy\'ean.\
 \
 -Multi-line string: l\'e0 ki\uc0\u7875 u chu\u7895 i m\'e0 c\'f3 th\u7875  xu\u7889 ng d\'f2ng \u273 \u432 \u7907 c. \
 	+\uc0\u272 \u7875  khai b\'e1o 1 multi-line th\'ec d\u7845 u \'93\'94\'94 \u273 \u7847 u v\'e0 \u273 u\'f4i b\u7855 t bu\u7897 c ph\u7843 i \u7903  kh\'e1c h\'e0ng. \
@@ -59,6 +59,11 @@ Creating Empty Collection: Ta c\'f3 th\uc0\u7875  khai b\'e1o c\'e1c ki\u7875 u 
 Enum: L\'e0 1 t\uc0\u7853 p h\u7907 p c\'e1c gi\'e1 tr\u7883  li\'ean quan \u273 \u7871 n nhau m\'e0 ta c\'f3 th\u7875  s\u7917  d\u7909 ng \u273 \u7875  x\u7917  l\'fd c\'e1c case b\'ean trong enum \u273 \'f3 v\u7899 i flow control nh\u432  If-Else, Switch-case, guard-else, \'85 Enum hi\u7875 u 1 c\'e1ch \u273 \u417 n gi\u7843 n l\'e0 \u273 \u7863 t t\'ean cho 1 gi\'e1 tr\u7883  theo case c\u7911 a enum. Gi\'e1 tr\u7883  \u273 \'f3 c\'f3 th\u7875  \u273 \u432 \u7907 c d\'f9ng \u273 \u7875  ki\u7875 m tra v\u7899 i 1 gi\'e1 tr\u7883  kh\'e1c m\'e0 c\u361 ng l\'e0 ki\u7875 u enum \u273 \'f3. D\'f9ng c\'e1ch n\'e0y ta kh\'f4ng c\u7847 n ph\u7843 i lo l\u7895 i ch\'ednh t\u7843  v\'e0 gi\'fap cho ng\u432 \u7901 i l\u7853 p tr\'ecnh d\u7877  d\'e0ng x\u7917  l\'fd c\'e1c tr\u432 \u7901 ng h\u7907 p s\u7917  d\u7909 ng enum \u273 \'f3.\
 	\
 Enum Associated values: Associated values c\uc0\u7911 a enum ho\u7841 t \u273 \u7897 ng gi\u7889 ng nh\u432  th\'eam m\'f4 t\u7843  v\'e0o cho t\u7915 ng case. Ta c\'f3 th\u7875  th\'eam c\'e1c gi\'e1 tr\u7883  \u273 i k\'e8m \u273 \u7875  cho case th\'eam ch\'ednh x\'e1c h\u417 n.\
+	+C\'fa ph\'e1p: enum Status \{\
+				case success (String)\
+				case error (Int)\
+			\}\
+	+Ta c\'f3 th\uc0\u7875  truy c\u7853 p c\'e1c Associated values s\u7917  d\u7909 ng flow-control.\
 \
 Enum Raw values: \
 	+S\uc0\u7917  d\u7909 ng raw Values ta c\'f3 th\u7875  \u273 \u7863 t gi\'e1 tr\u7883  cho t\u7915 ng case c\u7911 a enum.\
@@ -68,10 +73,9 @@ Enum Raw values: \
 			case tuesday\
 			case wednesday\
 		\}\
-	th\'ec gi\'e1 tr\uc0\u7883  c\u7911 a case tuesday s\u7869  l\'e0 1. C\'f2n n\u7871 u kh\'f4ng th\'ec c\'f3 th\u7875  \u273 \u7863 t gi\'e1 tr\u7883  cho 1 case \u7903  \u273 \u7847 u \u273 \u7875  t\'ednh theo. VD:\
+	th\'ec gi\'e1 tr\uc0\u7883  c\u7911 a case tuesday s\u7869  l\'e0 1. C\'f2n n\u7871 u kh\'f4ng th\'ec c\'f3 th\u7875  \u273 \u7863 t gi\'e1 tr\u7883  cho 1 case \u7903  \u273 \u7847 u \u273 \u7875  swift th\u7921 c hi\u7879 n t\'ednh l\'ean. VD:\
 	+enum Days: Int \{\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 			case monday = 1\
+			case monday = 1\
 			case tuesday\
 			case wednesday\
 		\}\
