@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='macos' buildActiveScheme='true' importAppTypes='true'>
     <pages>
-        <page name='1-Arimethrics Operators'/>
-        <page name='2-Operators Overloading'/>
-        <page name='3-Comparison Operators'/>
-        <page name='4-Compound Assignment Operators'/>
-        <page name='5-Conditions'/>
-        <page name='6-Combining Conditions'/>
-        <page name='7-Ternary Operators'/>
-        <page name='8-Switch statements'/>
-        <page name='9-Range Operators'/>
+        <page name='Arimethrics Operators'/>
+        <page name='Operators Overloading'/>
+        <page name='Comparison Operators'/>
+        <page name='Compound Assignment Operators'/>
+        <page name='Conditions'/>
+        <page name='Combining Conditions'/>
+        <page name='Ternary Operators'/>
+        <page name='Switch statements'/>
+        <page name='Range Operators'/>
     </pages>
 </playground>

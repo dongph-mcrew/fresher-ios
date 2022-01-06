@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' buildActiveScheme='true' executeOnSourceChanges='true' importAppTypes='true'>
+    <pages>
+        <page name='Creating basic closures'/>
+        <page name='Accepting parameters in a closure'/>
+        <page name='Returning values from a closure'/>
+        <page name='Closures as parameters'/>
+        <page name='Trailing closures syntax'/>
+        <page name='Using closures as parameters when they accept parameters'/>
+        <page name='Using closures as parameters when they return values'/>
+        <page name='Shorthand parameter names'/>
+        <page name='Closures with multiple parameters'/>
+        <page name='Returning closures from functions'/>
+        <page name='Capturing values'/>
+    </pages>
+</playground>
