@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' buildActiveScheme='true' executeOnSourceChanges='true' importAppTypes='true'>
+    <pages>
+        <page name='Initializers'/>
+        <page name='Referring to the current instances'/>
+        <page name='lazy properties'/>
+        <page name='Static properties &amp; methods'/>
+        <page name='Access control'/>
+    </pages>
+</playground>
