@@ -41,4 +41,7 @@ for pet in pets {
         break
     }
 }
+
+let data: Int
+data as Double
 //: [Next](@next)
