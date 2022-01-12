@@ -1,0 +1,6 @@
+framework module Pods_Day7_FilteringOperators_Day7_FilteringOperatorsUITests {
+  umbrella header "Pods-Day7_FilteringOperators-Day7_FilteringOperatorsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

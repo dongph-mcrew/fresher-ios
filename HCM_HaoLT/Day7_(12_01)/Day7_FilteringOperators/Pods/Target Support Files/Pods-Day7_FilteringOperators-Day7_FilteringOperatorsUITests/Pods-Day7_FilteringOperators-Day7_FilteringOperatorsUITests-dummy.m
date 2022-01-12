@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Day7_FilteringOperators_Day7_FilteringOperatorsUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Day7_FilteringOperators_Day7_FilteringOperatorsUITests
+@end
