@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B075CFDABECB0E6DA79E0F5 /* Pods_Day8_Transforming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F569AC7C463AAFDA863B798 /* Pods_Day8_Transforming.framework */; };
+		28230F22865CC5AB254F8055 /* Pods_Day8_Transforming_Day8_TransformingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7543275F06F74FB6B654828 /* Pods_Day8_Transforming_Day8_TransformingUITests.framework */; };
+		52418F6F9CDA5EB8D9FD49D4 /* Pods_Day8_TransformingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EDAA612244276B4718FB0C /* Pods_Day8_TransformingTests.framework */; };
+		8D27EBCB279036A9002723A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27EBCA279036A9002723A6 /* AppDelegate.swift */; };
+		8D27EBCD279036A9002723A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27EBCC279036A9002723A6 /* SceneDelegate.swift */; };
+		8D27EBCF279036A9002723A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27EBCE279036A9002723A6 /* ViewController.swift */; };
+		8D27EBD2279036A9002723A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D27EBD0279036A9002723A6 /* Main.storyboard */; };
+		8D27EBD5279036A9002723A6 /* Day8_Transforming.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D27EBD3279036A9002723A6 /* Day8_Transforming.xcdatamodeld */; };
+		8D27EBD7279036AB002723A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D27EBD6279036AB002723A6 /* Assets.xcassets */; };
+		8D27EBDA279036AB002723A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D27EBD8279036AB002723A6 /* LaunchScreen.storyboard */; };
+		8D27EBE5279036AB002723A6 /* Day8_TransformingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27EBE4279036AB002723A6 /* Day8_TransformingTests.swift */; };
+		8D27EBEF279036AB002723A6 /* Day8_TransformingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27EBEE279036AB002723A6 /* Day8_TransformingUITests.swift */; };
+		8D27EBF1279036AB002723A6 /* Day8_TransformingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27EBF0279036AB002723A6 /* Day8_TransformingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D27EBE1279036AB002723A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D27EBBF279036A9002723A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D27EBC6279036A9002723A6;
+			remoteInfo = Day8_Transforming;
+		};
+		8D27EBEB279036AB002723A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D27EBBF279036A9002723A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D27EBC6279036A9002723A6;
+			remoteInfo = Day8_Transforming;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DC33B1B661566D9FF52F3C8 /* Pods-Day8_Transforming-Day8_TransformingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day8_Transforming-Day8_TransformingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Day8_Transforming-Day8_TransformingUITests/Pods-Day8_Transforming-Day8_TransformingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F569AC7C463AAFDA863B798 /* Pods_Day8_Transforming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Day8_Transforming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAFC37F607E7D9F7F5A5716 /* Pods-Day8_TransformingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day8_TransformingTests.debug.xcconfig"; path = "Target Support Files/Pods-Day8_TransformingTests/Pods-Day8_TransformingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51DD96B85322255DFB79B316 /* Pods-Day8_TransformingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day8_TransformingTests.release.xcconfig"; path = "Target Support Files/Pods-Day8_TransformingTests/Pods-Day8_TransformingTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D27EBC7279036A9002723A6 /* Day8_Transforming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day8_Transforming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D27EBCA279036A9002723A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D27EBCC279036A9002723A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8D27EBCE279036A9002723A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D27EBD1279036A9002723A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D27EBD4279036A9002723A6 /* Day8_Transforming.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Day8_Transforming.xcdatamodel; sourceTree = "<group>"; };
+		8D27EBD6279036AB002723A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D27EBD9279036AB002723A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D27EBDB279036AB002723A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D27EBE0279036AB002723A6 /* Day8_TransformingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day8_TransformingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D27EBE4279036AB002723A6 /* Day8_TransformingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8_TransformingTests.swift; sourceTree = "<group>"; };
+		8D27EBEA279036AB002723A6 /* Day8_TransformingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day8_TransformingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D27EBEE279036AB002723A6 /* Day8_TransformingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8_TransformingUITests.swift; sourceTree = "<group>"; };
+		8D27EBF0279036AB002723A6 /* Day8_TransformingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8_TransformingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D27EBFD279036E5002723A6 /* Rx_Transforming.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rx_Transforming.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A1EDAA612244276B4718FB0C /* Pods_Day8_TransformingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Day8_TransformingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57A89E168E758E31EBFA4DE /* Pods-Day8_Transforming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day8_Transforming.debug.xcconfig"; path = "Target Support Files/Pods-Day8_Transforming/Pods-Day8_Transforming.debug.xcconfig"; sourceTree = "<group>"; };
+		AD52A886233D14FFA73695F2 /* Pods-Day8_Transforming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day8_Transforming.release.xcconfig"; path = "Target Support Files/Pods-Day8_Transforming/Pods-Day8_Transforming.release.xcconfig"; sourceTree = "<group>"; };
+		B7543275F06F74FB6B654828 /* Pods_Day8_Transforming_Day8_TransformingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Day8_Transforming_Day8_TransformingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73E4B0DB6BBAADBB88849AE /* Pods-Day8_Transforming-Day8_TransformingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day8_Transforming-Day8_TransformingUITests.release.xcconfig"; path = "Target Support Files/Pods-Day8_Transforming-Day8_TransformingUITests/Pods-Day8_Transforming-Day8_TransformingUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D27EBC4279036A9002723A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B075CFDABECB0E6DA79E0F5 /* Pods_Day8_Transforming.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D27EBDD279036AB002723A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52418F6F9CDA5EB8D9FD49D4 /* Pods_Day8_TransformingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D27EBE7279036AB002723A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28230F22865CC5AB254F8055 /* Pods_Day8_Transforming_Day8_TransformingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B32F393248D368A18167160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F569AC7C463AAFDA863B798 /* Pods_Day8_Transforming.framework */,
+				B7543275F06F74FB6B654828 /* Pods_Day8_Transforming_Day8_TransformingUITests.framework */,
+				A1EDAA612244276B4718FB0C /* Pods_Day8_TransformingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D27EBBE279036A9002723A6 = {
+			isa = PBXGroup;
+			children = (
+				8D27EBFD279036E5002723A6 /* Rx_Transforming.playground */,
+				8D27EBC9279036A9002723A6 /* Day8_Transforming */,
+				8D27EBE3279036AB002723A6 /* Day8_TransformingTests */,
+				8D27EBED279036AB002723A6 /* Day8_TransformingUITests */,
+				8D27EBC8279036A9002723A6 /* Products */,
+				BC0EDE2F25694FBB6B1D552F /* Pods */,
+				7B32F393248D368A18167160 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D27EBC8279036A9002723A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D27EBC7279036A9002723A6 /* Day8_Transforming.app */,
+				8D27EBE0279036AB002723A6 /* Day8_TransformingTests.xctest */,
+				8D27EBEA279036AB002723A6 /* Day8_TransformingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D27EBC9279036A9002723A6 /* Day8_Transforming */ = {
+			isa = PBXGroup;
+			children = (
+				8D27EBCA279036A9002723A6 /* AppDelegate.swift */,
+				8D27EBCC279036A9002723A6 /* SceneDelegate.swift */,
+				8D27EBCE279036A9002723A6 /* ViewController.swift */,
+				8D27EBD0279036A9002723A6 /* Main.storyboard */,
+				8D27EBD6279036AB002723A6 /* Assets.xcassets */,
+				8D27EBD8279036AB002723A6 /* LaunchScreen.storyboard */,
+				8D27EBDB279036AB002723A6 /* Info.plist */,
+				8D27EBD3279036A9002723A6 /* Day8_Transforming.xcdatamodeld */,
+			);
+			path = Day8_Transforming;
+			sourceTree = "<group>";
+		};
+		8D27EBE3279036AB002723A6 /* Day8_TransformingTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D27EBE4279036AB002723A6 /* Day8_TransformingTests.swift */,
+			);
+			path = Day8_TransformingTests;
+			sourceTree = "<group>";
+		};
+		8D27EBED279036AB002723A6 /* Day8_TransformingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D27EBEE279036AB002723A6 /* Day8_TransformingUITests.swift */,
+				8D27EBF0279036AB002723A6 /* Day8_TransformingUITestsLaunchTests.swift */,
+			);
+			path = Day8_TransformingUITests;
+			sourceTree = "<group>";
+		};
+		BC0EDE2F25694FBB6B1D552F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A57A89E168E758E31EBFA4DE /* Pods-Day8_Transforming.debug.xcconfig */,
+				AD52A886233D14FFA73695F2 /* Pods-Day8_Transforming.release.xcconfig */,
+				0DC33B1B661566D9FF52F3C8 /* Pods-Day8_Transforming-Day8_TransformingUITests.debug.xcconfig */,
+				E73E4B0DB6BBAADBB88849AE /* Pods-Day8_Transforming-Day8_TransformingUITests.release.xcconfig */,
+				3BAFC37F607E7D9F7F5A5716 /* Pods-Day8_TransformingTests.debug.xcconfig */,
+				51DD96B85322255DFB79B316 /* Pods-Day8_TransformingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D27EBC6279036A9002723A6 /* Day8_Transforming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D27EBF4279036AB002723A6 /* Build configuration list for PBXNativeTarget "Day8_Transforming" */;
+			buildPhases = (
+				81895CFD6BF6B0D525CA40F9 /* [CP] Check Pods Manifest.lock */,
+				8D27EBC3279036A9002723A6 /* Sources */,
+				8D27EBC4279036A9002723A6 /* Frameworks */,
+				8D27EBC5279036A9002723A6 /* Resources */,
+				9D0ED3225AA57EBFF9B4FD3F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Day8_Transforming;
+			productName = Day8_Transforming;
+			productReference = 8D27EBC7279036A9002723A6 /* Day8_Transforming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D27EBDF279036AB002723A6 /* Day8_TransformingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D27EBF7279036AB002723A6 /* Build configuration list for PBXNativeTarget "Day8_TransformingTests" */;
+			buildPhases = (
+				5447B886D7A5305AA2E445BA /* [CP] Check Pods Manifest.lock */,
+				8D27EBDC279036AB002723A6 /* Sources */,
+				8D27EBDD279036AB002723A6 /* Frameworks */,
+				8D27EBDE279036AB002723A6 /* Resources */,
+				96B856E75AFDDBBA54D86C4E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D27EBE2279036AB002723A6 /* PBXTargetDependency */,
+			);
+			name = Day8_TransformingTests;
+			productName = Day8_TransformingTests;
+			productReference = 8D27EBE0279036AB002723A6 /* Day8_TransformingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D27EBE9279036AB002723A6 /* Day8_TransformingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D27EBFA279036AB002723A6 /* Build configuration list for PBXNativeTarget "Day8_TransformingUITests" */;
+			buildPhases = (
+				9EF468DB4801199C8C61C978 /* [CP] Check Pods Manifest.lock */,
+				8D27EBE6279036AB002723A6 /* Sources */,
+				8D27EBE7279036AB002723A6 /* Frameworks */,
+				8D27EBE8279036AB002723A6 /* Resources */,
+				194D3C4EE443823050FCCA80 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D27EBEC279036AB002723A6 /* PBXTargetDependency */,
+			);
+			name = Day8_TransformingUITests;
+			productName = Day8_TransformingUITests;
+			productReference = 8D27EBEA279036AB002723A6 /* Day8_TransformingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D27EBBF279036A9002723A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8D27EBC6279036A9002723A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8D27EBDF279036AB002723A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8D27EBC6279036A9002723A6;
+					};
+					8D27EBE9279036AB002723A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8D27EBC6279036A9002723A6;
+					};
+				};
+			};
+			buildConfigurationList = 8D27EBC2279036A9002723A6 /* Build configuration list for PBXProject "Day8_Transforming" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D27EBBE279036A9002723A6;
+			productRefGroup = 8D27EBC8279036A9002723A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D27EBC6279036A9002723A6 /* Day8_Transforming */,
+				8D27EBDF279036AB002723A6 /* Day8_TransformingTests */,
+				8D27EBE9279036AB002723A6 /* Day8_TransformingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D27EBC5279036A9002723A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D27EBDA279036AB002723A6 /* LaunchScreen.storyboard in Resources */,
+				8D27EBD7279036AB002723A6 /* Assets.xcassets in Resources */,
+				8D27EBD2279036A9002723A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D27EBDE279036AB002723A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D27EBE8279036AB002723A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		194D3C4EE443823050FCCA80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Day8_Transforming-Day8_TransformingUITests/Pods-Day8_Transforming-Day8_TransformingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Day8_Transforming-Day8_TransformingUITests/Pods-Day8_Transforming-Day8_TransformingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Day8_Transforming-Day8_TransformingUITests/Pods-Day8_Transforming-Day8_TransformingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5447B886D7A5305AA2E445BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Day8_TransformingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81895CFD6BF6B0D525CA40F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Day8_Transforming-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B856E75AFDDBBA54D86C4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Day8_TransformingTests/Pods-Day8_TransformingTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Day8_TransformingTests/Pods-Day8_TransformingTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Day8_TransformingTests/Pods-Day8_TransformingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D0ED3225AA57EBFF9B4FD3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Day8_Transforming/Pods-Day8_Transforming-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Day8_Transforming/Pods-Day8_Transforming-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Day8_Transforming/Pods-Day8_Transforming-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EF468DB4801199C8C61C978 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Day8_Transforming-Day8_TransformingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D27EBC3279036A9002723A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D27EBCF279036A9002723A6 /* ViewController.swift in Sources */,
+				8D27EBD5279036A9002723A6 /* Day8_Transforming.xcdatamodeld in Sources */,
+				8D27EBCB279036A9002723A6 /* AppDelegate.swift in Sources */,
+				8D27EBCD279036A9002723A6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D27EBDC279036AB002723A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D27EBE5279036AB002723A6 /* Day8_TransformingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D27EBE6279036AB002723A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D27EBF1279036AB002723A6 /* Day8_TransformingUITestsLaunchTests.swift in Sources */,
+				8D27EBEF279036AB002723A6 /* Day8_TransformingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D27EBE2279036AB002723A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D27EBC6279036A9002723A6 /* Day8_Transforming */;
+			targetProxy = 8D27EBE1279036AB002723A6 /* PBXContainerItemProxy */;
+		};
+		8D27EBEC279036AB002723A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D27EBC6279036A9002723A6 /* Day8_Transforming */;
+			targetProxy = 8D27EBEB279036AB002723A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D27EBD0279036A9002723A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D27EBD1279036A9002723A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D27EBD8279036AB002723A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D27EBD9279036AB002723A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D27EBF2279036AB002723A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D27EBF3279036AB002723A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D27EBF5279036AB002723A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57A89E168E758E31EBFA4DE /* Pods-Day8_Transforming.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RX5U58PQ6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Day8_Transforming/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haolam.Day8-Transforming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D27EBF6279036AB002723A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD52A886233D14FFA73695F2 /* Pods-Day8_Transforming.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RX5U58PQ6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Day8_Transforming/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haolam.Day8-Transforming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D27EBF8279036AB002723A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BAFC37F607E7D9F7F5A5716 /* Pods-Day8_TransformingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RX5U58PQ6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haolam.Day8-TransformingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day8_Transforming.app/Day8_Transforming";
+			};
+			name = Debug;
+		};
+		8D27EBF9279036AB002723A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51DD96B85322255DFB79B316 /* Pods-Day8_TransformingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RX5U58PQ6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haolam.Day8-TransformingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day8_Transforming.app/Day8_Transforming";
+			};
+			name = Release;
+		};
+		8D27EBFB279036AB002723A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC33B1B661566D9FF52F3C8 /* Pods-Day8_Transforming-Day8_TransformingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RX5U58PQ6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haolam.Day8-TransformingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Day8_Transforming;
+			};
+			name = Debug;
+		};
+		8D27EBFC279036AB002723A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73E4B0DB6BBAADBB88849AE /* Pods-Day8_Transforming-Day8_TransformingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RX5U58PQ6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haolam.Day8-TransformingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Day8_Transforming;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D27EBC2279036A9002723A6 /* Build configuration list for PBXProject "Day8_Transforming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D27EBF2279036AB002723A6 /* Debug */,
+				8D27EBF3279036AB002723A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D27EBF4279036AB002723A6 /* Build configuration list for PBXNativeTarget "Day8_Transforming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D27EBF5279036AB002723A6 /* Debug */,
+				8D27EBF6279036AB002723A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D27EBF7279036AB002723A6 /* Build configuration list for PBXNativeTarget "Day8_TransformingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D27EBF8279036AB002723A6 /* Debug */,
+				8D27EBF9279036AB002723A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D27EBFA279036AB002723A6 /* Build configuration list for PBXNativeTarget "Day8_TransformingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D27EBFB279036AB002723A6 /* Debug */,
+				8D27EBFC279036AB002723A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D27EBD3279036A9002723A6 /* Day8_Transforming.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D27EBD4279036A9002723A6 /* Day8_Transforming.xcdatamodel */,
+			);
+			currentVersion = 8D27EBD4279036A9002723A6 /* Day8_Transforming.xcdatamodel */;
+			path = Day8_Transforming.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8D27EBBF279036A9002723A6 /* Project object */;
+}

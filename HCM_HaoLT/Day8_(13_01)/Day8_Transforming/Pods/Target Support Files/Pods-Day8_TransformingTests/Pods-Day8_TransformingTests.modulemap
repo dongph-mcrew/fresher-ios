@@ -1,0 +1,6 @@
+framework module Pods_Day8_TransformingTests {
+  umbrella header "Pods-Day8_TransformingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
