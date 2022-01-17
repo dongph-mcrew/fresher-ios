@@ -32,7 +32,7 @@ let bag = DisposeBag()
 /**
  Need to make a new constant/variable to run this function.
  */
-func basicTimer() -> Observable<Int> {
+func basicTimer(){
     let elementsPerSecond = 1
     let maxElement = 5
     let replayedElement = 1
@@ -75,11 +75,7 @@ func basicTimer() -> Observable<Int> {
             })
             .disposed(by: bag)
     }
-    
-    return observable
 }
-
-//let temp = basicTimer()
 
 // 1.2/ Replaying past elements
 
@@ -243,7 +239,6 @@ func window() {
     }
 }
 
-window()
 
 //MARK: 2/ Time shifting operator
 
@@ -322,7 +317,7 @@ func interval() {
             .disposed(by: bag)
     }
     
-    DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
+    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
         replay
             .subscribe(onNext: { value in
                 printValue("🔵: \(value)")
@@ -336,6 +331,7 @@ func interval() {
     
     replay.connect()
 }
+
 
 // 3.2/ Timer
 
@@ -362,6 +358,7 @@ func timer() {
     }
 }
 
+
 // 3.3/ Timeout
 
 /**
@@ -387,11 +384,12 @@ func timeout() {
     DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
         source.onNext(2)
     }
-    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+    DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
         source.onNext(3)
     }
 }
 
+timeout()
 /*
  Summary:
     +replay(_:) : replay all elements in a buffer with the size limit as the parameter.
