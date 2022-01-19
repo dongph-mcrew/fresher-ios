@@ -1,0 +1,27 @@
+[
+    {
+        "name" : "Blue Legume",
+        "cuisine": "European"
+    },
+    {
+        "name" : "Fish & Chips",
+        "cuisine": "American"
+    },
+    {
+        "name" : "Le Mercury",
+        "cuisine": "French"
+    },
+    {
+        "name" : "Layla",
+        "cuisine": "English"
+    },
+    {
+        "name" : "The Tacos",
+        "cuisine": "Mexican"
+    },
+    {
+        "name" : "Blue Dragon",
+        "cuisine": "Chinese"
+    }
+    
+]

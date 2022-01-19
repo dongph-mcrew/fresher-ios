@@ -1,0 +1,6 @@
+framework module Pods_Day11_ExampleAppTests {
+  umbrella header "Pods-Day11_ExampleAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
