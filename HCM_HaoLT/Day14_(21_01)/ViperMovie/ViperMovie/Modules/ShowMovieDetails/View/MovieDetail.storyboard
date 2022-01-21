@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Movie Detail View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="MovieDetail" id="Y6W-OH-hqX" customClass="MovieDetail_ViewController" customModule="ViperMovie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comments" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4NV-qQ-0Gx">
+                                <rect key="frame" x="20" y="244" width="374" height="176"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RV5-eq-0cx">
+                                <rect key="frame" x="87" y="440" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="JCu-Jq-w1A"/>
+                                    <constraint firstAttribute="height" constant="240" id="xRE-4b-5b7"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RV5-eq-0cx" firstAttribute="top" secondItem="4NV-qQ-0Gx" secondAttribute="bottom" constant="20" id="HON-Vt-rod"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="RV5-eq-0cx" secondAttribute="trailing" constant="87" id="Kzt-2b-h5E"/>
+                            <constraint firstItem="4NV-qQ-0Gx" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Pl5-MB-i8u"/>
+                            <constraint firstItem="4NV-qQ-0Gx" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="200" id="Y7y-Im-dC2"/>
+                            <constraint firstItem="4NV-qQ-0Gx" firstAttribute="centerX" secondItem="RV5-eq-0cx" secondAttribute="centerX" id="ZwN-yo-2Nh"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="RV5-eq-0cx" secondAttribute="bottom" constant="182" id="bzI-Ja-Ybp"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="4NV-qQ-0Gx" secondAttribute="trailing" constant="20" id="fXN-am-tFD"/>
+                            <constraint firstItem="RV5-eq-0cx" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="87" id="pNv-c7-dO2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bodyComment" destination="4NV-qQ-0Gx" id="5XZ-hq-6s1"/>
+                        <outlet property="icon" destination="RV5-eq-0cx" id="w0u-n4-Fyq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73.913043478260875" y="44.866071428571423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
